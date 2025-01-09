@@ -16,3 +16,4 @@ def de_quy(n, s, res):
   if(n == 0):
     return res
   return de_quy(n - 1, s, res)
+print(de_quy(len(x) - 1, x, rev_s))
